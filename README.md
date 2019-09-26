@@ -90,7 +90,7 @@ Get the coordinates of the corners of the transform's source quadrilateral, expr
 
 ```js
 var perspT = PerspT(srcPts, dstPts);
-var srcPts = perspT.srtPts;
+var srcPts = perspT.srcPts;
 // [158, 64, 494, 69, 495, 404, 158, 404]
 ```
 
